@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import { createRizzResponse } from './rizzLogic.js';
 
 function App() {
   const [userName, setUserName] = useState('');
@@ -10,7 +11,8 @@ function App() {
   }
 
   const handleClick = () => {
-    alert("Hello, " + userName + "!");
+      var rizzResponse = createRizzResponse(userName);
+        alert(rizzResponse);
   }
 
   return (
