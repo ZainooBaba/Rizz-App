@@ -5,13 +5,19 @@ import { createRizzResponse } from './rizzLogic.js';
 function App() {
   const [userName, setUserName] = useState('');
   const [rizzResponse, setRizzResponse] = useState('');
+  const [profanityFilter, setProfanityFilter] = useState(false);
 
   const handleChange = (event) => {
     setUserName(event.target.value);
   }
 
+  const handleCheckboxChange = () => {
+    setProfanityFilter(!profanityFilter);
+  }
+
   const handleClick = () => {
-    const response = createRizzResponse(userName);
+    let response = createRizzResponse(userName, profanityFilter);
+    
     setRizzResponse(response);
   }
 
@@ -28,6 +34,14 @@ function App() {
             onChange={handleChange}
           />
           <button onClick={handleClick}>Enter</button>
+        </div>
+        <div className="checkbox-container">
+          <input
+            type="checkbox"
+            checked={profanityFilter}
+            onChange={handleCheckboxChange}
+          />
+          <label htmlFor="profanityFilter">Enable Profanity Filter</label>
         </div>
         {rizzResponse && (
           <div className="response-container">
