@@ -180,4 +180,5 @@ export const evilRizzlines = [
     "Wanna sploink?",
     "Holy shit I’m bout to expunge",
     "Ay Soulja boy wanna fuck",
+    "So is your name Gillette? Because you look like the best a man can get",
 ]
