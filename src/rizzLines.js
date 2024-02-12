@@ -171,7 +171,6 @@ export const evilRizzlines = [
     "Wanna share your side of the bed tonight?",
     "For a girl that looks like you to still be single must mean that you have some serious problems ",
     "I’ve never killed a mountain lion, but I’ve always wanted to choke a cougar. Wyd this weekend???",
-    "Ima be honest with you, i dont know why you’re playing hard to get when you’re already hard to like ",
     "Thinking of you keeps me awake, dreaming of you keeps me asleep, but being with you keeps me alive",
     "I find your lack of nudity disturbing",
     "Are you down to boink",
@@ -181,4 +180,9 @@ export const evilRizzlines = [
     "Holy shit I’m bout to expunge",
     "Ay Soulja boy wanna fuck",
     "So is your name Gillette? Cause you look like the best a man can get",
+    "Even if I found myself in the deepest recesses of hell, I would be truly at peace, because God gave me enough heaven for an eternity when he gave me just a moment with you",
+    "If it ain't rice, then it ain't nice",
+    "Well, [NAME], do you know the difference between history and you? Answer: The history is in the past and you are my future",
+    "Do you know who Albert Einstein is? He said there is nothing faster than lightning, but he hasn't seen how fast I have fallen for you",
+    "Well if I'm not Abraham, when are we Lincoln?",
 ]
